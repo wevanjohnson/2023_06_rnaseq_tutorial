@@ -19,6 +19,8 @@ tables: true
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 setwd("~/github/2023_06_rnaseq_tutorial/")
+# create an alignments folder if needed
+if (!file.exists("aligments")) {dir.create("aligments")}
 
 # Install Rsubread and Rsamtools and call the libraries: You only need to install it once! So I commented out the install--uncomment it for your first run!
 #if (!requireNamespace("BiocManager", quietly = TRUE))
