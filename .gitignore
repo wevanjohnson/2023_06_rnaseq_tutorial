@@ -8,7 +8,11 @@
 */*.DS_Store
 */*/*.DS_Store
 
-aligments/*
+aligments/*.bam
+aligments/*.sam
+aligments/*.vcf
+aligments/*.summary
+aligments/*.txt
 genome/*.array
 genome/*.tab
 genome/*.files
